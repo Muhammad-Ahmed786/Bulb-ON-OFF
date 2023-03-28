@@ -1,8 +1,8 @@
 function changeImage() {
     var image = document.getElementById('myImage');
     if (image.src.match("Bulbon")) {
-      image.src = "Bulboff.jpg";
+      image.src = "assets/images/Bulboff.jpg";
     } else {
-      image.src = "Bulbon.jpg";
+      image.src = "assets/images/Bulbon.jpg";
     }
   }
